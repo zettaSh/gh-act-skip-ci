@@ -1,13 +1,13 @@
-name: Workflow 1
+name: Workflow 2
 
 on:
   push:
     paths:
-      - 'wf1/*'
+      - 'wf2/*'
 
 jobs:
   show-env:
     runs-on: ubuntu-latest
     steps:
-      - run: echo Workflow1
+      - run: echo Workflow2
       - run: env
