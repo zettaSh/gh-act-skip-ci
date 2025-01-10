@@ -1,0 +1,12 @@
+Name: Workflow 1
+
+on:
+  push:
+    paths:
+      - '.wf1/*'
+
+jobs:
+  show-env:
+    runs-on: ubuntu-latest
+    steps:
+      - run: env
