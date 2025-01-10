@@ -3,7 +3,7 @@ Name: Workflow 1
 on:
   push:
     paths:
-      - '.wf1/*'
+      - 'wf1/*'
 
 jobs:
   show-env:
